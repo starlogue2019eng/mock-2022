@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "I.Ming";
+  src: url("./I.Ming.ttf");
+}
+
+/* Style Definitions */
+p.MsoNormal,
+li.MsoNormal,
+div.MsoNormal {
+  margin: 0cm;
+  margin-bottom: .0001pt;
+  line-height: 12.0pt;
+  font-size: 8.0pt;
+  font-family: "Arial", "I.Ming", sans-serif;
+}
+
+.MsoChpDefault {
+  font-family: "Arial", "I.Ming", sans-serif;
+}
+
+/* Page Definitions */
+@page WordSection1 {
+  size: 841.9pt 595.3pt;
+  margin: 36.0pt 36.0pt 36.0pt 36.0pt;
+  layout-grid: 18.0pt;
+}
+
+#app {
+  width: 297mm;
+  height: 210mm;
+  margin: auto;
+  padding: 0.5in 1in;
+}
+
+@media screen {
+  body {
+    background: #666;
+  }
+  #app {
+    margin: 1.5em auto;
+    box-shadow: 1em 1em 1em #000;
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+}
+
+@media print {
+  .print-btn {
+    display: none;
+  }
+}
