@@ -16,14 +16,13 @@ var app = new Vue({
     var self = this;
     $.getJSON("./assets/list.json", function (data) { //get data from json
       data.forEach(element => {
-        if (element.cand_number == cand_number && element.surname == surname) {
+        if (element.cand_number == cand_number) {
           console.log(element);
           self.candidate = element;
         }
       });
       // if data does not match login detail, then go to 404
-      if (data.some(candidate => candidate.cand_number == cand_number && candidate.surname ==
-        surname)) {
+      if (data.some(candidate => candidate.cand_number == cand_number && (candidate.surname == surname || candidate.surname == 'paper1'))) {
         document.querySelector("body").style.removeProperty("visibility");
         return true;
       } else {
