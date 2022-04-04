@@ -37,9 +37,9 @@
     "cand_number": "010",
     "surname": "kwan",
     "P1A": 30,
-    "P1B": 24,
-    "P1Total": 54,
-    "P1Lv": 6,
+    "P1B": 31,
+    "P1Total": 61,
+    "P1Lv": 7,
     "Part B Q num": 2,
     "P2AM1C": 7,
     "P2AM1L": 5,
@@ -64,8 +64,8 @@
     "P2B_Adj": 111,
     "P2Total": 183,
     "P2Lv": 6,
-    "Total_score": 237,
-    "Total_Lv": 6
+    "Total_score": 244,
+    "Total_Lv": 7
   },
   {
     "cand_number": "015",
@@ -138,9 +138,9 @@
   {
     "cand_number": "023",
     "surname": "chan",
-    "P1A": 0,
-    "P1B": 0,
-    "P1Total": 0,
+    "P1A": 14,
+    "P1B": 13,
+    "P1Total": 27,
     "P1Lv": 0,
     "Part B Q num": 3,
     "P2AM1C": 4,
@@ -166,8 +166,8 @@
     "P2B_Adj": 84,
     "P2Total": 132,
     "P2Lv": 4,
-    "Total_score": 264,
-    "Total_Lv": 4
+    "Total_score": 159,
+    "Total_Lv": 2
   },
   {
     "cand_number": "025",
@@ -851,7 +851,7 @@
   },
   {
     "cand_number": "072",
-    "surname": "chu",
+    "surname": "paper1",
     "P1A": 20,
     "P1B": 21,
     "P1Total": 41,
@@ -1769,7 +1769,7 @@
   },
   {
     "cand_number": 123,
-    "surname": "",
+    "surname": "paper1",
     "P1A": 0,
     "P1B": 0,
     "P1Total": 0,
